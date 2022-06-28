@@ -21,16 +21,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/heroku/node-js-sample"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
-    "Hector Simpson <hector@heroku.com> (http://heroku.com)"
-  ],
-  "license": "MIT"
+  }
 }
