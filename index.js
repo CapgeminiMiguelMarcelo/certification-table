@@ -5,7 +5,7 @@ const path = require('path');
 
 //require('dotenv').config()
 
-app.set('port', 5000);
+app.set('port', process.env.PORT || 3000);
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 //app.set('views', __dirname + '/public');
@@ -20,7 +20,7 @@ router.get('/', function(request, response) {
 });*/
 
 app.use('/', router);
-app.listen(5000);
+app.listen(process.env.PORT || 3000);
 
 //app.listen();
 module.exports = app
