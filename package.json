@@ -2,8 +2,8 @@
   "name": "certification-reward-table",
   "version": "0.1.0",
   "description": "A table that presents the value rewarded for each passed certification.",
-  "main": "*index.html",
-  /*"scripts": {
+  "main": "*index.js",
+  "scripts": {
     "start": "node index.js",
     "test": "mocha --reporter tap"
   },
@@ -14,12 +14,12 @@
     "ejs": "^2.5.5",
     "express": "^4.0.0",
     "mocha": "^3.3.0"
-  },*/
+  },
   "engines": {
     "ejs": "2.5.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/CapgeminiMiguelMarcelo/certification-table"
   }
 }
