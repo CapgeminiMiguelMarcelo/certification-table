@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-require('dotenv').config()
+//require('dotenv').config()
 
 app.set('port', (process.env.PORT || 5000));
 app.engine('html', require('ejs').renderFile);
