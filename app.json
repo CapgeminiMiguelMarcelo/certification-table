@@ -7,7 +7,7 @@
       "quantity": 1
     }
   },
-  "repository": "https://github.com/CapgeminiMiguelMarcelo/intro-to-heroku",
+  "repository": "https://github.com/CapgeminiMiguelMarcelo/certification-table",
   "addons": [
     "heroku-postgresql"
   ],
