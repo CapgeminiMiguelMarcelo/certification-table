@@ -6,7 +6,7 @@ require('dotenv').config()
 app.set('port', (process.env.PORT || 5000));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/public');
+//app.set('views', __dirname + '/public');
 
 app.get('/', function(request, response) {
   response.render('index.html');
