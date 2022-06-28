@@ -2,22 +2,60 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.7.0/tachyons.css">
-		<title>Dreamforce 2018 is the best</title>
+		<title>Project O - Certification Reward Table</title>
 	</head>
 	<body>
 		<div class="vh-100 w-100 flex justify-center">
 			<div class="flex flex-column items-center justify-center">
-				<h2 class="fw4 green">Panorama Trail!</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Certification Name</th>
+							<th>Reward Value</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id=one>
+							<td>Administrator</td>
+							<td>100€</td>
+						</tr>
+						<tr id=two>
+							<td>Advanced Administrator</td>
+							<td>250€</td>
+						</tr>
+						<tr id=three>
+							<td>CPQ Specialist</td>
+							<td>150€</td>
+						</tr>
+						<tr id=four>
+							<td>Marketing Could Administrator</td>
+							<td>100€</td>
+						</tr>
+						<tr id=five>
+							<td>Platform App Builder</td>
+							<td>50€</td>
+						</tr>
+						<tr id=six>
+							<td>Application Architect</td>
+							<td>100€</td>
+						</tr>
+						<tr id=seven>
+							<td id=certname>B2B Solution Architect</td>
+							<td>150€</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--<h2 class="fw4 green">Panorama Trail!</h2>
 				<p class="silver ma0">Build with Heroku Flow</p>
 				<div class="pt5">
 					<span id="env" class="white pv1 ph2 br-pill bg-light-blue"></span>
-				</div>
+				</div>-->
 			</div>
 		</div>
 
 		<script>
-			var env = "<%= env %>";
-			document.getElementById("env").innerHTML = env;
+			var certname = "<%= certname %>";
+			document.getElementById("certname").innerHTML = certname;
 		</script>
 	</body>
 </html>
