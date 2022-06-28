@@ -12,10 +12,8 @@ app.get('/', function(request, response) {
   response.render('index.html', { env: envName});
 });
 
-/*app.listen(app.get('port'), function() {
+app.listen(app.get('port'), function() {
   console.log("Node app running at localhost:" + app.get('port'));
-});*/
-
-app.listen();
+});
 
 module.exports = app
