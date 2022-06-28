@@ -7,8 +7,9 @@
       "quantity": 1
     }
   },
+  "repository": "https://github.com/CapgeminiMiguelMarcelo/intro-to-heroku",
   "addons": [
-
+    "heroku-postgresql"
   ],
   "buildpacks": [
     {
