@@ -2,8 +2,29 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.7.0/tachyons.css">
-		<link rel="stylesheet" href="index.css">
 		<title>Project O - Certification Reward Table</title>
+		<style>
+			#certtable {
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+			#certtable td, #customers th {
+			  border: 1px solid #ddd;
+			  padding: 8px;
+			}
+
+			#certtable tr:nth-child(even){background-color: #f2f2f2;}
+
+			#certtable tr:hover {background-color: #ddd;}
+
+			#certtable th {
+			  padding-top: 12px;
+			  padding-bottom: 12px;
+			  text-align: center;
+			  background-color: #04AA6D;
+			  color: white;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="vh-100 w-100 flex justify-center">
