@@ -3,6 +3,30 @@
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.7.0/tachyons.css">
 		<title>Project O - Certification Reward Table</title>
+		<style>
+			#certtable {
+			  font-family: Arial, Helvetica, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+
+			#certtable td, #customers th {
+			  border: 1px solid #ddd;
+			  padding: 8px;
+			}
+
+			#certtable tr:nth-child(even){background-color: #f2f2f2;}
+
+			#certtable tr:hover {background-color: #ddd;}
+
+			#certtable th {
+			  padding-top: 12px;
+			  padding-bottom: 12px;
+			  text-align: left;
+			  background-color: #04AA6D;
+			  color: white;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="vh-100 w-100 flex justify-center">
@@ -12,11 +36,11 @@
 				<p>A simple table with all the information you need in order to motivate yourself into developing your skills!</p>
 				<br>
 				<br>
-				<table>
+				<table id=certtable>
 					<thead>
 						<tr>
 							<th style="width: 500px">Certification Name</th>
-							<th style="width: 300px">Reward Value</th>
+							<th style="width: 200px">Reward Value</th>
 						</tr>
 					</thead>
 					<tbody>
