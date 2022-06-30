@@ -33,15 +33,6 @@
 			    overflow-y: auto; 
 			}
 			
-			#certtable tr{
-			    display: table;
-			}
-			
-			#certtable th{
-			    position: sticky;
-			    z-index: 1;
-			}
-			
 		</style>
 	</head>
 	<body>
@@ -53,11 +44,13 @@
 				<br>
 				<br>
 				<table id=certtable>
-					<tbody>
+					<thead>
 						<tr>
 							<th sytle="width: 70%">Certification Name</th>
 							<th sytle="width: 30%">Reward Value</th>
 						</tr>
+					</thead>
+					<tbody>
 						<tr>
 							<td>Administrator</td>
 							<td>100€</td>
