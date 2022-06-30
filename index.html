@@ -8,7 +8,7 @@
 			  border-collapse: collapse;
 			}
 			
-			#certtable td, th {
+			#certtable th, td {
 			  border: 1px solid #ddd;
 			  padding: 8px;
 			}
@@ -26,12 +26,11 @@
 		          width: 400px;
 			}
 			
-			#certtable tbody { display: table}
-			
 			#certtable tbody {
+		            display: block;
 			    height: 400px;
 			    width: 100%;
-			    overflow-y: auto;    /* Trigger vertical scroll    */
+			    overflow-y: auto; 
 			}
 			
 			#certtable thead {
